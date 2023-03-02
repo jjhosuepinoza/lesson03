@@ -12,11 +12,11 @@ POST http://localhost:8080/contacts HTTP/1.1
 content-type: application/json
 
 {
-    "firstName":"Ashley",
-    "lastName":"Weaver",
-    "email":"aWeaver@test.com",
-    "favoriteColor":"Brown",
-    "birthday":"06/19/2000"
+    "firstName":"Mark",
+    "lastName":"Jhonson",
+    "email":"mark@test.com",
+    "favoriteColor":"Red",
+    "birthday":"11/21/1992"
 }
 
 
