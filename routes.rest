@@ -12,11 +12,11 @@ POST http://localhost:5000/contacts
 content-type: application/json
 
 {
-    "firstName":"Luis",
-    "lastName":"Perez",
-    "email":"luisperez@test.com",
-    "favoriteColor":"Gray",
-    "birthday":"10/12/1990"
+    "firstName":"Marlon",
+    "lastName":"Brandon",
+    "email":"marlonbrandon@test.com",
+    "favoriteColor":"Yellow",
+    "birthday":"01/01/1989"
 }
 
 
@@ -27,12 +27,12 @@ content-type: application/json
 {
       "firstName":"Mark",
     "lastName":"Jhonson",
-    "email":"mark@test.com",
-    "favoriteColor":"Orange",
+    "email":"markjhonson@test.com",
+    "favoriteColor":"Navy Blue",
     "birthday":"11/21/1992"
     }
 ### DELETE contact
-DELETE http://localhost:5000/contacts/6407c84959a963cf565e3bea
+DELETE http://localhost:5000/contacts/6407e4a76ad997963295d582
 
 // PRODUCTION Deploy
 ### Get all contacts
@@ -57,13 +57,13 @@ content-type: application/json
 
 
 ### PUT contact
-PUT https://lesson03-javierespinoza.onrender.com/contacts HTTP/1.1
+PUT https://lesson03-javierespinoza.onrender.com/contacts/6407e58be8f33669ec5e8f21 HTTP/1.1
 content-type: application/json
 
 {
     "firstName":"Mark",
     "lastName":"Yuhan",
-    "email":"yuhan@test.com",
+    "email":"yuhanmarkn@test.com",
     "favoriteColor":"Light Blue",
     "birthday":"03/05/1985"
 }
@@ -71,4 +71,4 @@ content-type: application/json
 
 
 ### DELETE contact
-DELETE https://lesson03-javierespinoza.onrender.com/contacts HTTP/1.1
+DELETE https://lesson03-javierespinoza.onrender.com/contacts/6407e58be8f33669ec5e8f21 HTTP/1.1
